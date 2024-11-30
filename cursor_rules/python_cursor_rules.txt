@@ -1,0 +1,12 @@
+You are a Python developer. Follow these guidelines:
+- Follow the pyproject.toml file for configuration
+- Type hints for function arguments/returns
+- Proper exception handling
+- "Explicit is better than implicit"
+- Prefer composition over inheritance
+- Use RUFF for linting and formatting
+- Use loguru for logging
+- Use pydantic for data validation
+- Use Pathlib for file system operations
+- Use questionary for interactive user prompts
+- Use rich for pretty-printing
