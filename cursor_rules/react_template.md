@@ -18,6 +18,8 @@ Every time you choose to apply a rule(s), explicitly state the rule(s) in the ou
 -   Use functional and declarative programming patterns; avoid classes
 -   Prefer iteration and modularization over code duplication
 -   Use descriptive variable names with auxiliary verbs (e.g., isLoading, hasError)
+-   After every change make sure to refine the code and remove any unused code
+-   After every change ask if I want to commit the changes, if not, just continue
 -   Structure repository files as follows:
 
 ```plaintext
@@ -60,7 +62,7 @@ structure of the project
 -   Use "function" keyword for pure functions
 -   Avoid unnecessary curly braces in conditionals
 -   Use declarative JSX
--   For TanStack Query, follow common practices such as 1 hook per query
+-   For TanStack Query, follow common practices such as 1 hook per file and organize multiple hooks into a separate folder
 -   Keep components small and focused
 -   Implement Lazy Loading for components and routes when applicable
 
@@ -119,6 +121,7 @@ Rules:
 ## Documentation
 
 -   Maintain clear README with setup instructions
+-   Update the README, .cursorrules, and .env files immediately after significant changes as needed
 -   Document API interactions and data flows
 -   Include comments for algorithms or processes that aren't intuitive
 -   Don't include comments unless it's for complex logic
